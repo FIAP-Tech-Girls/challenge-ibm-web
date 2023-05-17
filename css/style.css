@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 2px;
+
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(to right, rgb(112, 66, 196), rgb(192, 107, 226));
+}
