@@ -40,6 +40,22 @@ body{
     color: white;
 }
 
+.conteudo-tech{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.conteudo-tech-texto{
+    font-family: 'Jura',sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
 .imagem-tech{
     height: 500px;
 }
@@ -54,3 +70,19 @@ body{
     text-align: left;
     font-size: 24px;
 }
+
+.imagem-integrantes{
+    height: 200px;
+    padding: auto;
+    padding: 24px;
+}
+
+.conteudo-imagem-integrantes{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;  
+}
+
