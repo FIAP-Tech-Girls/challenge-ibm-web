@@ -44,6 +44,9 @@ body{
     padding: 24px;
     font-weight: bold;
 }
+.logo-tech{
+    height: 90px;
+}
 
 .titulo-tech{
     font-family: 'Jura',cursive;
