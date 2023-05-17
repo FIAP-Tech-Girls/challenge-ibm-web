@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,4 +12,45 @@
 body{
     font-size: 100%;
     background-image: linear-gradient(to right, rgb(112, 66, 196), rgb(192, 107, 226));
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+}
+
+.item-menu{
+    font-family: 'Jura', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.titulo-tech{
+    font-family: 'Jura',cursive;
+    text-align: center;
+    color: white;
+}
+
+.imagem-tech{
+    height: 500px;
+}
+
+.texto-tech{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Jura',sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 24px;
 }
