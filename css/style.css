@@ -45,7 +45,7 @@ body{
     font-weight: bold;
 }
 .logo-tech{
-    height: 90px;
+    height: 80px;
 }
 
 .titulo-tech{
@@ -121,4 +121,27 @@ body{
     font-family: 'Jura',sans-serif;
     text-align:center;
     font-size:20px;
+}
+
+.conteudo-projeto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.imagem-projeto{
+    height: 300px;
+}
+
+.texto-projeto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Jura',sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 24px;
 }
