@@ -123,12 +123,25 @@ body{
     font-size:20px;
 }
 
+.titulo-projeto{
+    text-align: center;
+    font-family: 'Jura', cursive;
+    color: white;
+}
 .conteudo-projeto{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+}
+
+.conteudo-projeto-texto{
+    font-family: 'Jura',sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .imagem-projeto{
@@ -143,5 +156,44 @@ body{
     font-family: 'Jura',sans-serif;
     color: white;
     text-align: left;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.titulo-tema-projeto{
+    text-align: center;
+    font-family: 'Jura', cursive;
+    color: white;
+}
+
+.conteudo-projeto-tema{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.imagem-transito{
+    height: 300px;
+}
+
+.conteudo-projeto-tema-texto{
+    font-family: 'Jura',sans-serif;
     font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.texto-tema{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Jura',sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 40px;
 }
