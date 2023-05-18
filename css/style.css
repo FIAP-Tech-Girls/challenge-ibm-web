@@ -270,3 +270,81 @@ body{
     font-family: 'Jura',sans-serif;
     color: white;
 }
+
+.conteudo-propostas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    margin-top: 45px;
+}
+
+.conteudo-proposta-arduino{
+    font-family: 'Jura',sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 15%;
+    color: white;
+}
+
+.titulo-arduino{
+    font-family: 'Jura',sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.imagem-proposta-arduino{
+    height: 300px;
+    margin-right: 100%;
+}
+
+.conteudo-proposta-web{
+    font-family: 'Jura',sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-right: 10%;
+    color: white;
+}
+
+.titulo-web{
+    font-family: 'Jura',sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.imagem-proposta-web{
+    height: 300px;
+    margin-left: 10%;
+}
+
+.conteudo-proposta-tiana{
+    font-family: 'Jura',sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 10%;
+    color: white;
+}
+
+.titulo-proposta-tiana{
+    font-family: 'Jura',sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.imagem-proposta-tiana{
+    height: 300px;
+    margin-right: 10%;
+}
