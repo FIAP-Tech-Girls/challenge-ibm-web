@@ -128,6 +128,15 @@ body{
     font-family: 'Jura', cursive;
     color: white;
 }
+
+.subtitulo-projeto{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
 .conteudo-projeto{
     display: flex;
     flex-direction: row;
@@ -164,6 +173,15 @@ body{
     text-align: center;
     font-family: 'Jura', cursive;
     color: white;
+    margin-top: 50px;
+}
+
+.subtitulo-tema-projeto{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
 }
 
 .conteudo-projeto-tema{
