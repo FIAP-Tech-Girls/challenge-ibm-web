@@ -348,3 +348,59 @@ body{
     height: 300px;
     margin-right: 10%;
 }
+
+.login{
+    background-color: rgb(114, 31, 146);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.login-input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.login-botao{
+    background-color: rgb(192, 107, 226);
+    border: none;
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10%;
+}
+
+.login-botao:hover{
+    background-color: rgb(165, 45, 212);
+    cursor: pointer;
+}
+
+.login-titulo{
+    font-family: 'Jura',sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.login-paragrafo{
+    font-family: 'Jura',sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.login-paragrafo2{
+    padding: 10px;
+    font-family: 'Jura',sans-serif;
+    color: white;
+    font-size: 17px;
+}
