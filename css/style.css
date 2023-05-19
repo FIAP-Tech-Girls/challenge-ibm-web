@@ -473,7 +473,6 @@ body{
     font-size: 80px;
 }
 
-
 .gradient-overlay {
     height: 100%;
     width: 100%;
@@ -485,4 +484,34 @@ body{
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.tituloInicial{
+    width:400px;
+    font-family: 'Jura', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 24px;
+}
+
+.conteudoHome{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+
+.conteudoHome p{
+    font-size: 24px;
+    text-align: justify;
+    font-family: 'Jura', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.conteudoHome img{
+    margin-right: 10px;
+}
+
+.conteudoHome a{
+    text-decoration: none;
+    color:#000;
 }
