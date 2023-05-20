@@ -20,3 +20,15 @@ function validacaoLogin(){
         alert("Seja bem vindo(a)!")
     }
 }
+
+function validacaoCadastro(){
+    let nomeUsuarioCadastro = document.getElementById('nomeUsuarioCadastro').value
+    let emailUsuarioCadastro = document.getElementById('emailUsuarioCadastro').value
+    let senhaUsuarioCadastro = document.getElementById('senhaUsuarioCadastro').value
+
+    if (nomeUsuarioCadastro == "" || emailUsuarioCadastro == "" || senhaUsuarioCadastro == ""){
+        alert('Preencha todos campos antes de prosseguir')
+    } else {
+        alert("Seja bem vindo(a)!")
+    }
+}

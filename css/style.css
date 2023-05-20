@@ -384,6 +384,22 @@ body{
     cursor: pointer;
 }
 
+.cadastro-botao{
+    background-color: rgb(192, 107, 226);
+    border: none;
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10%;
+}
+
+.cadastro-botao:hover{
+    background-color: rgb(165, 45, 212);
+    cursor: pointer;
+}
+
 .login-titulo{
     font-family: 'Jura',sans-serif;
     text-align: center;

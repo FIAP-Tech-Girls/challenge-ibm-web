@@ -23,13 +23,13 @@
 
     <div class="login">
         <h1 class="login-titulo">Cadastro</h1>
-        <p class="login-paragrafo">Nome:  <input class="login-input" type="text" placeholder="Insira seu nome completo" required ></p>
+        <p class="login-paragrafo">Nome:  <input class="login-input" id="nomeUsuarioCadastro" type="text" placeholder="Insira seu nome completo" required ></p>
         <br><br>
-        <p class="login-paragrafo">E-mail: <input class="login-input" type="email" placeholder="Insira seu e-mail" required ></p>
+        <p class="login-paragrafo">E-mail: <input class="login-input" id="emailUsuarioCadastro" type="email" placeholder="Insira seu e-mail" required ></p>
         <br><br>
-        <p class="login-paragrafo">Senha: <input class="login-input" type="password" placeholder="Insira sua senha" required ></p>
-        <center><a onclick="alertaBotaoCadastro()"><button class="login-botao">Cadastrar</button></a></center>
-    </div>
+        <p class="login-paragrafo">Senha: <input class="login-input" id="senhaUsuarioCadastro" type="password" placeholder="Insira sua senha" required ></p>
+        <br> <br>
+        <center><input type="submit" value="Cadastrar" class="cadastro-botao" id="cadastro-botao" onclick="validacaoCadastro()"></center>    </div>
     
     <footer>
         <div class="footer">
